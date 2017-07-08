@@ -1,7 +1,7 @@
 # slackBot
 <p>研究室のSlackで実際に<b>@ninoshin_bot</b>として運用しているBot。</p>
 <p>Docomoの提供しているAPIを使っているので会話もできる！</p>
-
+<br>
 <div align="CENTER">
 <img src="https://github.com/nshhhin/Images/blob/master/slackBot_demo.png" width="500px" height="auto">
 <p>Fig.1 @ninoshin_botの活動様子</p>
