@@ -1,6 +1,11 @@
 # slackBot
 <p>研究室のSlackで実際に<b>@ninoshin_bot</b>として運用しているBot</p>
 
+<div align="CENTER">
+<img src="https://github.com/nshhhin/Images/blob/master/slackBot_demo.png" width="500px" height="auto">
+<p>Fig.1 @ninoshin_botの活動様子</p>
+</div>
+
 ### 機能
 <li>じゃんけん機能</li>
 <li>おしゃべり機能</li>
