@@ -1,5 +1,5 @@
 # slackBot
-<p>研究室のSlackで実際に<b>@ninoshin_bot</b>として運用しているBot</p>
+<p>研究室のSlackで実際に<b>@ninoshin_bot</b>として運用しているBot。</p>
 <p>Docomoの提供しているAPIを使っているので会話もできる！</p>
 
 <div align="CENTER">
