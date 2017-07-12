@@ -111,10 +111,10 @@ APP_URL = 'https://api.apigw.smt.docomo.ne.jp/dialogue/v1/dialogue'
 
 ### Constants
 oath_key_dict = {
-    "consumer_key": "xxx",
-    "consumer_secret": "xxx",
-    "access_token": "xxx",
-    "access_token_secret": "xxx"
+    "consumer_key": "コンシューマーキーを入力してください",
+    "consumer_secret": "コンシューマーシークレットキーを入力してください",
+    "access_token": "アクセストークンを入力してください",
+    "access_token_secret": "アクセストークンシークレットを入力してください"
 }
 
 
@@ -312,7 +312,7 @@ def startJanken(message):
 	t.start()
 
 
-	slack = Slacker(slackbot_settings.API_TOKEN)
+	slack = Slacker("APIKEYを入力")
 	user = message.channel._client.users[message.body['user']][u'name']
 	user = str(user)
 
@@ -552,7 +552,7 @@ def getTweet(message):
   	msg += "}"
 	
 
-	slack = Slacker(slackbot_settings.API_TOKEN)
+	slack = Slacker("APIKEYを入力")
 	
 	ret = slack.chat.post_message(
 		message._body['channel'],
